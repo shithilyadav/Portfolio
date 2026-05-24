@@ -29,8 +29,8 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                 I'M
+                 <strong className="main-name"> SHITHIL YADAV</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -61,7 +61,7 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/shithilyadav"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -71,7 +71,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://x.com/Shithil_05_"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -81,7 +81,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/shithil-yadav/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -91,7 +91,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/s4shithilhere/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
