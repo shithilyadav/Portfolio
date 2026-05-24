@@ -10,44 +10,80 @@ import Toolstack from "./Toolstack";
 function About() {
   return (
     <>
-      {" "}
       <Particle />
+
       <Container fluid className="about-section">
         <Container>
-          <Row style={{ justifyContent: "center", padding: "10px" }}>
+
+          <Row
+            style={{
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "20px 0",
+            }}
+          >
+
+            {/* Left Side */}
             <Col
               md={7}
               style={{
                 justifyContent: "center",
-                paddingTop: "30px",
-                paddingBottom: "50px",
+                paddingTop: "20px",
+                paddingBottom: "20px",
               }}
             >
-              <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              <h1
+                style={{
+                  fontSize: "2.1em",
+                  paddingBottom: "20px",
+                  textAlign: "center",
+                }}
+              >
                 Know Who <strong className="purple">I'M</strong>
               </h1>
+
               <Aboutcard />
             </Col>
+
+            {/* Right Side Image */}
             <Col
               md={5}
-              style={{ paddingTop: "120px", paddingBottom: "50px" }}
-              className="about-img"
+              className="about-img text-center"
+              style={{
+                paddingTop: "20px",
+                paddingBottom: "20px",
+              }}
             >
-              <img src={laptopImg} alt="about" className="img-fluid" />
+              <img
+                src={laptopImg}
+                alt="about"
+                className="img-fluid"
+                style={{
+                  maxHeight: "400px",
+                  width: "100%",
+                  objectFit: "contain",
+                }}
+              />
             </Col>
           </Row>
+
+          {/* Skills */}
           <h1 className="project-heading">
-            Professional <strong className="purple">Skillset </strong>
+            Professional <strong className="purple">Skillset</strong>
           </h1>
 
           <Techstack />
 
+          {/* Tools */}
           <h1 className="project-heading">
             <strong className="purple">Tools</strong> I use
           </h1>
+
           <Toolstack />
 
+          {/* Github */}
           <Github />
+
         </Container>
       </Container>
     </>
