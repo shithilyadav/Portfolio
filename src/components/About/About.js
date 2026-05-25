@@ -11,10 +11,8 @@ function About() {
   return (
     <>
       <Particle />
-
       <Container fluid className="about-section">
         <Container>
-
           <Row
             style={{
               justifyContent: "center",
@@ -22,10 +20,8 @@ function About() {
               padding: "20px 0",
             }}
           >
-
             {/* Left Side */}
-            <Col
-              md={7}
+            <Col xs={12} md={7}
               style={{
                 justifyContent: "center",
                 paddingTop: "20px",
@@ -33,6 +29,7 @@ function About() {
               }}
             >
               <h1
+                className="about-title"
                 style={{
                   fontSize: "2.1em",
                   paddingBottom: "20px",
@@ -41,14 +38,10 @@ function About() {
               >
                 Know Who <strong className="purple">I'M</strong>
               </h1>
-
               <Aboutcard />
             </Col>
-
             {/* Right Side Image */}
-            <Col
-              md={5}
-              className="about-img text-center"
+            <Col xs={12} md={5} className="about-img text-center"
               style={{
                 paddingTop: "20px",
                 paddingBottom: "20px",
@@ -57,7 +50,7 @@ function About() {
               <img
                 src={laptopImg}
                 alt="about"
-                className="img-fluid"
+                className="img-fluid about-main-img"
                 style={{
                   maxHeight: "400px",
                   width: "100%",
@@ -66,24 +59,18 @@ function About() {
               />
             </Col>
           </Row>
-
           {/* Skills */}
-          <h1 className="project-heading">
+          <h1 className="project-heading about-title">
             Professional <strong className="purple">Skillset</strong>
           </h1>
-
           <Techstack />
-
           {/* Tools */}
-          <h1 className="project-heading">
+          <h1 className="project-heading about-title">
             <strong className="purple">Tools</strong> I use
           </h1>
-
           <Toolstack />
-
           {/* Github */}
           <Github />
-
         </Container>
       </Container>
     </>

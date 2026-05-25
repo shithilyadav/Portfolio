@@ -547,12 +547,30 @@ button:focus {
 /* About */
 /* --------- */
 
+
 .about-section {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  /* background-image: var(--section-background-color) !important; */
   color: white !important;
+}
+
+@media (max-width: 767px) {
+  .about-section {
+    padding-top: 60px !important;
+    padding-bottom: 10px !important;
+  }
+  .about-title {
+    font-size: 1.4em !important;
+    padding-bottom: 10px !important;
+  }
+  .about-main-img {
+    max-height: 220px !important;
+  }
+  .project-heading {
+    font-size: 1.3em !important;
+    padding-top: 5px !important;
+  }
 }
 
 .tech-icons {
